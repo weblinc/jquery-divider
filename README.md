@@ -1,7 +1,11 @@
 jquery.divider.js
 ====== 
 
-A jQuery plugin for a sliding image divider
+A jQuery plugin for a sliding image divider.
+
+Dependencies
+---
+This plugin requires jQuery (obviously) and jQuery UI's draggable functionality
 
 Options
 ---
