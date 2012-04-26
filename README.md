@@ -3,7 +3,7 @@ jquery.divider.js
 
 A jQuery plugin for a sliding image divider.
 
-[View demo](http://weblinc.github.com/jquery.divider.js)
+[View demo](http://weblinc.github.com/jquery-divider)
 
 Supported in IE6-9, Chrome, FF3.6,12, Safari
 
