@@ -1,0 +1,95 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<style>
+			body { background-color: #f0dfd0; color: #1a6d86; }
+			.container {
+				margin: 20px auto;
+				width: 600px;
+				height: 600px;
+			}
+			.section {
+				width: 600px;
+				height: 600px;
+			}
+			.left   { 
+				background-color: #229396;
+				background-image: url('jquery.png');
+			}
+			.center {
+				background-color: #8ba88f;
+				background-image: url('js.png');
+			}
+			.right  {
+				background-color: #c7c5a7;
+				background-image: url('node.png');
+			}
+			.h-divider {
+				width:600px;
+				height:10px;
+				background-color: #1a6d86;
+				cursor: pointer;
+			}
+			.v-divider {
+				width:10px;
+				height:600px;
+				background-color: #1a6d86;
+				cursor: pointer;
+			}
+			.handle {
+				width: 20px;
+				height: 20px;
+				background-color: #ff0077;
+				cursor: pointer;
+			}
+			.horizontal .handle { margin-left: 290px; }
+			.vertical .handle { margin-top: 290px; }
+		</style>
+	</head>
+	<body>
+		<h2>jQuery Divider</h2>
+		<div class="container vertical" id="container1">
+			<div class="section left" id="left1"></div>
+			<div class="section right" id="right1"></div>
+		</div>
+		<div class="container vertical" id="container2">
+			<div class="section left" id="left2"></div>
+			<div class="section center" id="center2"></div>
+			<div class="section right" id="right2"></div>
+		</div>
+		<div class="container horizontal" id="container3">
+			<div class="section left" id="top3"></div>
+			<div class="section right" id="bottom3"></div>
+		</div>
+		<div class="container horizontal" id="container4">
+			<div class="section left" id="top4"></div>
+			<div class="section center" id="center4"></div>
+			<div class="section right" id="bottom4"></div>
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.js"></script>
+		<script src='jquery.divider.js' type='text/javascript'></script>
+		<script type="text/javascript">
+			$('#container1').divider({
+				controller: 'v-divider',
+				direction: 'vertical',
+				panels: '.section',
+				position: [ 550 ],
+				handle: $('<div />', { 'class' : 'handle' })
+			});
+			$('#container2').divider({
+				controller: $('<div />', { 'class': 'v-divider' }),
+				direction: 'vertical',
+				panels: '.section',
+				position: [ 0, 590 ]
+			});
+			$('.container.horizontal').divider({
+				controller: $('<div />', { 'class': 'h-divider' }),
+				direction: 'horizontal',
+				panels: '.section',
+				position: [ 0 ],
+				handle: $('<div />', { 'class' : 'handle' })
+			});
+		</script>
+	</body>
+</html>
