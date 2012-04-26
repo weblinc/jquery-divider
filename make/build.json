@@ -1,0 +1,8 @@
+{
+  "JAVASCRIPT" : {
+    "DIST_DIR" : "./",
+    "jquery.divider" : [
+      "src/jquery.divider.js"
+    ]
+  }
+}
