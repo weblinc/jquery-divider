@@ -1,0 +1,20 @@
+header,footer,nav,section,article,aside{display:block}
+body{min-width:320px;margin:0;padding:0;background:#fff;color:#444;font:normal 16px/normal "Univers LT W01 45 Light",Tahoma,sans-serif}
+h1,h2,h3,h4,h5,h6{margin:0;font-weight:normal}
+h1{font-size:32px}
+h2{font-size:25px}
+h3,h4{font-size:18px}
+a{color:#3c8fbe;text-decoration:none}
+a:hover,a:focus{text-decoration:underline}
+a img{border:0}
+dl,ul,ol,dt,dd{margin:0;padding:0;vertical-align:top}
+dl dt a,dl dd h2 a{color:#444;text-decoration:none}
+li{margin:0 0 0 1.6em;padding:0}
+form{margin:1em 0}
+fieldset{margin:0;border:0;padding:0}
+label{display:block;color:#777;font-size:14px}
+input,textarea,select{width:230px;border:1px solid #dfdfdf;border-radius:8px;padding:5px;font:normal 14px/normal Tahoma,sans-serif;box-shadow:inset 5px 5px 5px #f8f8f8,inset -5px -5px 5px #f8f8f8}
+textarea{overflow:auto;width:370px;height:100px}
+button{margin:0;border:0;border-radius:8px;padding:5px 10px;background-color:#c96363;color:#fff;font:normal 14px/normal "Univers LT W01 45 Light",Tahoma,sans-serif}
+small{font-size:0.6em;}
+.wrapper {width: 45%; margin: 0 auto; padding: 1em}
