@@ -30,7 +30,7 @@ button{margin:0;border:0;border-radius:8px;padding:5px 10px;background-color:#c9
 .wl-footer{padding:4px 0}
 .wl-footer .logo{display:block;margin:10px;width:142px;height:21px;float:right;background:transparent url(http://images06.weblinc.com/assets/sprite.png) 0 0 no-repeat}
 .wl-footer .nav{margin:0;padding:0;float:right;list-style:none}
-.wl-footer .contact{float:left;padding:8px 0}
+.wl-footer .contact{float:left;padding:10px 0}
 .wl-footer .contact .twitter{background-position:-235px -116px}
 .wl-ribbon{position: absolute; top: 0; right: 0; margin: 0;}
 .wl-ribbon img {border: 0;}
